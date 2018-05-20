@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scal=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-repeat:no-repeat; background: url('backgroundimage.jpg'); background-size: 100%;" >
+    <article>
+        <header class="container-fluid">
+            <a class="btn btn-info" href="pizza.html" role="button">Home</a>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" class="text-right">Your order</button>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a href="./delivery.html" target="iframe_a" >Delivery</a>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./carryout.html" target="iframe_a" >CarryOut</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center" class="col-md-3 col-md-push-9" style="background-color: lightblue;"> Online Pizza order </h1>
+        </header>
+        <section >
+            <div class="navbar navbar-inverse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="./large_pizza.html" target ="iframe_a" >Large Pizza</a></li>
+                    <li ><a href="./medium_pizza.html" target ="iframe_a" >Medium Pizza</a></li>
+                    <li ><a href="./small_pizza.html" target ="iframe_a" >Small</a></li>
+                    <li ><a href="./breads_slices.html" target ="iframe_a" >Breads & Sides</a></li>
+                    <li ><a href="./drinks.html" target ="iframe_a" >Drinks</a></li>
+                </ul>
+            </div>
+            <iframe src="./default.html" name="iframe_a"   style=" border-width: inherit;
+                    width: -webkit-fill-available; height: -webkit-fill-available; background-repeat: no-repeat;"></iframe>
+        </section>
+        <footer>
+            <h4>Contact Us:</h4>
+            <h4>@ onlinepizzaorder</h4>
+        </footer>
+
+    </article>
+</body>
+</html>
